@@ -46,7 +46,7 @@ $ mkdir build
 $ cd build
 # setup tensorflow source
 $ export tensorflow_source_dir="your tensorflow source dir"
-$ cmake -DTENSORFLOW_SHARED=ON -DTENSORFLOW_SOURCE_DIR="tensorflow_source_dir" ..
+$ cmake -DTENSORFLOW_SHARED=ON -DTENSORFLOW_SOURCE_DIR="${tensorflow_source_dir}" ..
 $ make
 $ make install
 ```
