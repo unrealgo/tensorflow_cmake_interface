@@ -100,6 +100,3 @@ mkdir build && cd build
 cmake .. && make
 ./example 
 ```
-
-If you are still unsure, consult the Dockerfiles for
-[Ubuntu](Dockerfiles/ubuntu) and [Arch Linux](Dockerfiles/archlinux).
